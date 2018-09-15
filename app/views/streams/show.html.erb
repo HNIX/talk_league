@@ -1,0 +1,16 @@
+<h1>Showing selected stream</h1>
+
+<p>
+
+Title: <%= @stream.title %>
+
+</p>
+
+<p>
+
+Go Live Notification: <%= @stream.go_live %>
+
+</p>
+<%= link_to "Edit this stream", edit_stream_path(@stream) %> |
+
+<%= link_to "Back to all streams", streams_path %>
